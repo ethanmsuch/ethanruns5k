@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pre-Race Smoke & Shot Meetup</title>
+
+  <style>
+    :root {
+      --ink: #000;
+      --accent: #ff9d42;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff6e8;
+      color: #222;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* ✨ Sparkle Animation */
+    @keyframes sparkle {
+      0%, 100% { text-shadow: 0 0 0 var(--accent); }
+      50% { text-shadow: 0 0 12px var(--accent); }
+    }
+
+    .sparkle {
+      animation: sparkle 1.5s infinite ease-in-out;
+    }
+
+    .flyer {
+      max-width: 720px;
+      background: white;
+      padding: 36px;
+      border: 5px solid #000;
+      border-radius: 6px;
+      box-shadow: 0 0 0 5px #ff9d42 inset, 0 12px 0 #000;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 46px;
+      margin: 0 0 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    img {
+      max-width: 260px;
+      border: 4px solid #000;
+      margin: 18px 0;
+      transform: rotate(-2deg);
+      box-shadow: 6px 6px 0 #ff9d42;
+    }
+
+    .time {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+
+    .location {
+      margin-top: 24px;
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    .note {
+      font-size: 17px;
+      margin-top: 26px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .tiny {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    /* ⭐ Restored Small Stamp (Original Size) */
+    .stamp {
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      background: var(--accent);
+      border: 3px solid var(--ink);
+      padding: 10px 20px; /* ← original size */
+      font-weight: 900;
+      transform: rotate(8deg);
+      box-shadow: 6px 6px 0 var(--ink);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flyer">
+    <div class="stamp">HIGHLY QUESTIONABLE</div>
+
+    <h1 class="sparkle">Smoke & Shot Meetup</h1>
+    <h2 class="sparkle">Before I Heroically Attempt the Turkey Trot 5K</h2>
+
+    <img src="ethanthumbsup.jpg" alt="Me giving a thumbs up" />
+
+    <div class="time sparkle">
+      Thanksgiving Morning<br>
+      9:00 AM – <em>approximately</em> 9:05 AM
+    </div>
+
+    <div class="location sparkle">
+      Meet me at:<br>
+      <strong>SouthPark Mall — Charlotte, NC</strong><br>
+      (Somewhere vaguely near the start line)
+    </div>
+
+    <div class="note sparkle">
+      The mission is simple:  
+      <strong>One cig. One shot. Zero preparation.</strong><br><br>
+      Then I will immediately attempt to run 3.1 miles with the confidence
+      of a man who absolutely trained… but actually didn’t.
+      <br><br>
+      No sign-ups. No waivers. Just show up and support.
+    </div>
+
+    <div class="tiny sparkle">
+      21+ for participating in the chaos.  
+      Bring your finest trash talk, moral support, or last-minute CPR certification.
+    </div>
+  </div>
+</body>
+</html>
